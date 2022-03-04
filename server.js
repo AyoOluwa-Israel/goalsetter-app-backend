@@ -35,7 +35,7 @@ app.use("/api/users", require("./routes/userRoutes"));
 // }
 
 app.get('/', (req, res) =>{
-  res.json("Welome to my Api")
+  res.json("Welcome to my Api")
 })
 
 
